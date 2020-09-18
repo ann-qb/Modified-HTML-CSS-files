@@ -7,7 +7,7 @@
 
 ## Original:
 
-![Home Page](images/work-shop-1-design)
+![Home Page](images/workshop-1-design)
 
 ## Modified:
 
