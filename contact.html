@@ -4,12 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>RMedia</title>
-    <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header class="header-div">
         <h1 class="logo">
             <a href=""><img src="images/logo.jpg" alt="RMedia Logo"></a>
+        </h1>
             <nav class="nav-bar">
                 <ul>
                     <li><a href="index.html">Home</a></li>
@@ -18,7 +19,6 @@
                     <li><a href="contact.html">Contact</a></li>
                 </ul>
             </nav>
-        </h1>
         <div class="search-wrap">
             <input type="search" id="search" placeholder="Search..."> 
         </div>
@@ -31,10 +31,7 @@
                     <p>
                         Lorem lpsum is simply dummy text of the printing and typesetting industry. 
                         Lorem lpsum has been the industry's standard dummy text ever since the 1500's,when an
-                        unknown printer took a galley of type and scrambled it to make a type specimen book.It has 
-                        survived not only five centuries, but also the leap  into electronic typesetting,remaining
-                        1960s with the release ofLetraset sheets containing lorem lpsum passages,and more recently with desktop publishing software
-                        like Aldus Pagemker including versions of lorem lpsum.
+                        unknown printer took a galley of type and scrambled it to make a type specimen book.
                     </p>
                     <p>
                         why do use it?
@@ -45,31 +42,15 @@
                 </div>
             </div>
             <div class="bottom-sec">
-                <table id="form-table">
-                    <form action="">
-                        <tr>
-                            <td><label for="username">Name:</label></td>
-                        </tr>
-                        <tr>
-                            <td><input type="text" id="username"></td>
-                        </tr>
-                        <tr>
-                            <td><label for="emailid">Email ID:</label></td>
-                        </tr>
-                        <tr>
-                            <td><input type="email" id="emailid"></td>
-                        </tr>
-                        <tr>
-                            <td><label for="message">Message:</label></td>
-                        </tr>
-                        <tr>
-                            <td><input type="textarea" id="message"></td>
-                        </tr>
-                        <tr>
-                            <td><input type="button" id="submit-form" value="Submit"></td>
-                        </tr>                        
-                    </form>
-                </table>
+                <form action="" id="contact-form">
+                    <label for="username">Name:</label><br>
+                    <input type="text" id="user-name"><br>
+                    <label for="emailid">Email ID:</label><br>
+                    <input type="email" id="email-id"><br>
+                    <label for="message">Message:</label><br>
+                    <input type="textarea" id="message"><br>
+                    <input type="button" id="submit-form" value="Submit"><br>
+                </form>
             </div>
         </div>
         <div class="right-sec">
